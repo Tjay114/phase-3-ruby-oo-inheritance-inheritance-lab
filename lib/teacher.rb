@@ -1,5 +1,5 @@
 #require_relative '../lib/user'
-require 'pry'
+#require 'pry'
 class Teacher < User
 
       attr_accessor :first_name, :last_name
@@ -20,4 +20,4 @@ class Teacher < User
 end
 
 t1 = Teacher.new
-binding.pry
+#binding.pry

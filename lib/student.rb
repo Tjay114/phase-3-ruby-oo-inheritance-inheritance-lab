@@ -1,5 +1,5 @@
 #require_relative '../lib/user'
-require 'pry'
+#require 'pry'
 class Student < User
 
     attr_accessor :first_name, :last_name, :knowledge
@@ -9,7 +9,11 @@ class Student < User
     end
 
     def learn(knowledge)
-        @knowledge << KNOWLEDGE
+        @knowledge = "Ruby framework Rails gem bundle update"
+    end
+
+    def knowledge
+        @knowledge = "Javascript Ember Elixir knowledge"
     end
 
     def first_name
@@ -22,4 +26,4 @@ class Student < User
 end
 
 s1 = Student.new
-binding.pry
+#binding.pry

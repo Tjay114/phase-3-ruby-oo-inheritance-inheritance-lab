@@ -1,4 +1,4 @@
-require 'pry'
+#require 'pry'
 class User
 
     attr_accessor :first_name, :last_name
@@ -14,4 +14,4 @@ end
 
 u1 = User.new
 
-binding.pry
+#binding.pry
